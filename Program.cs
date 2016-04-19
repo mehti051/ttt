@@ -17,8 +17,8 @@ namespace TeleBotTicTacToe
         public const int DefaultGridSize = 3;
 
         private const int UpdateTimeoutInSeconds = 30;
-        private const string BotUserName = "YOUR_BOT_NAME";
-        private const string ApiKey = "YOUR_BOT_API_KEY";
+        private const string BotUserName = "cruel_game_bot";
+        private const string ApiKey = "211633925:AAFDVpGN6kbcLnxfSIduocMAnpM7yXtvdec";
 
         private static TeleBot _bot;
         private static TeleBot Bot => _bot ?? (_bot = new TeleBot(ApiKey));
